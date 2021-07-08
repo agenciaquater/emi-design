@@ -1,5 +1,5 @@
 import React from 'react'
-import { GoogleMap, LoadScript, Marker, InfoBox } from '@react-google-maps/api';
+import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
 
 import styles from './styles.module.scss'
 
@@ -28,12 +28,20 @@ export function Location() {
             <GoogleMap
                 mapContainerStyle={containerStyle}
                 center={center}
-                zoom={210}
+                zoom={17}
+                tilt={0}
                 mapTypeId="satellite"
             >
                 <Marker
                     position={{lat: -30.05413678496917, lng: -51.21861826873204}}
                 />
+
+                <InfoWindow position={{lat: -30.05372479507917, lng: -51.21861826873204}}>
+                  <div>
+                    <h3>DESIGN Porto Alegre</h3>
+                    <p>Condomínio Residencial</p>
+                  </div>
+                </InfoWindow>
             </GoogleMap>
           </LoadScript>
         </div>
