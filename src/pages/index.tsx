@@ -20,12 +20,12 @@ export default function Home() {
 
       <NextSeo 
         title="Edifício Design"
-        description="Trabalhamos há mais de 15 anos com excelência em pós-operatório de cirurgias plásticas. Aqui você tem qualidade de vida e conforto durante sua reabilitação."
+        description="Apartamentos de 2 dormitórios, com 1 ou 2 vagas de garagem, além de infraestrutura completa de lazer e segurança."
         canonical=""
       />
 
       <Head>
-        <title>EMI | Design</title>
+        <title>EMI | Edifício Design</title>
       </Head>
 
       <div className={styles.container} id="home">
@@ -35,7 +35,12 @@ export default function Home() {
 
         <main className={styles.main}>
           <div className={styles.introductionText}>
-            <img src="/images/design-logo-white.webp" alt="on the park"/>
+            <p>EDIFÍCIO</p>
+            <img src="/images/design-logo.png" alt="design"/>
+
+            <h2><span>O MELHOR NEGÓCIO IMOBILIÁRIO DO</span></h2>
+
+            <h1><span>MENINO DEUS.</span></h1>
 
             <h3><span>APARTAMENTOS DE 2 DORMITÓRIOS, <br /> COM 70m² E VAGAS DE GARAGEM.</span></h3> 
           </div>

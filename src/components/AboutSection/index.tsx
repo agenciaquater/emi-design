@@ -33,17 +33,19 @@ export function AboutSection() {
                             <h2>A 15 MINUTOS DE <br /> SHOPPING PRAIA DE BELAS</h2>
                         </div>
 
-                        <ul>
-                            <div className={styles.listSpan}>Apartamentos de 70,13m²</div>
-                            <div className={styles.listSpan}>2 Dormitórios</div>
-                            <div className={styles.listSpan}>Vagas de Garagem</div>
-                            <li>Salão de Festas</li>
-                            <li>Espaço Gourmet</li>
-                            <li>Piscina</li>
-                            <li>Deck Molhado</li>
-                            <li>Portaria 24h</li>
-                            <li>Gerador de Energia</li>
-                        </ul>
+                        <div className={styles.listItems}>
+                            <ul>
+                                <div className={styles.listSpan}>Apartamentos de 70,13m²</div>
+                                <div className={styles.listSpan}>2 Dormitórios</div>
+                                <div className={styles.listSpan}>Vagas de Garagem</div>
+                                <li>Salão de Festas</li>
+                                <li>Espaço Gourmet</li>
+                                <li>Piscina</li>
+                                <li>Deck Molhado</li>
+                                <li>Portaria 24h</li>
+                                <li>Gerador de Energia</li>
+                            </ul>
+                        </div>
                     </div>
                 </main>
 

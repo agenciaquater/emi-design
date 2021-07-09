@@ -38,7 +38,7 @@ export function Location() {
 
                 <InfoWindow position={{lat: -30.05372479507917, lng: -51.21861826873204}}>
                   <div>
-                    <h3>DESIGN Porto Alegre</h3>
+                    <h3>DESIGN</h3>
                     <p>Condomínio Residencial</p>
                   </div>
                 </InfoWindow>
