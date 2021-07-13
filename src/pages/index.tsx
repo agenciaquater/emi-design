@@ -25,7 +25,7 @@ export default function Home() {
       />
 
       <Head>
-        <title>EMI | Edifício Design</title>
+        <title>EMI | Design</title>
       </Head>
 
       <div className={styles.container} id="home">

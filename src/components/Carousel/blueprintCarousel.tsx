@@ -42,32 +42,9 @@ export function BlueprintCarousel() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
-                <AiOutlineLeft color="#2C2C2C" size={50} onClick={scrollPrev} className={styles.arrow}/>
-                    <div className={styles.content}>
-                        <div className={styles.embla} ref={emblaRef}>
-                            <div className={styles.embla__container}>
-                                { blueprintImages.map(img => (
-                                    <div key={img.image} className={styles.embla__slide}>
-                                        <img src={img.image} alt="image" />
-                                    </div>
-                                )) }
-                            </div>
-                        </div>
-                    </div>
-                <AiOutlineRight color="#2C2C2C" size={50} onClick={scrollNext} className={styles.arrow}/>
-            </div>
-
-            <div className={styles.dashGroup}>
-                <AiOutlineLeft color="#2C2C2C" size={30} onClick={scrollPrev} className={styles.responsiveArrow}/>
-
-                { blueprintImages.map((img, i) => (
-                    <ActiveSlideButton 
-                        key={img.image}
-                        isActive={i === selectedIndex} 
-                        onClick={() => scrollTo(i)}/>
-                )) }
-
-                <AiOutlineRight color="#2C2C2C" size={30} onClick={scrollNext}  className={styles.responsiveArrow}/>
+                <div className={styles.content}>
+                    <img src='/images/blueprint-img.webp' alt="image" />
+                </div>
             </div>
         </div>
     )    

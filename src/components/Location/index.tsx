@@ -36,7 +36,15 @@ export function Location() {
                     position={{lat: -30.05413678496917, lng: -51.21861826873204}}
                 />
 
-                <InfoWindow position={{lat: -30.05372479507917, lng: -51.21861826873204}}>
+                <InfoWindow 
+                  position={{lat: -30.05413678496917, lng: -51.21861826873204}}
+                  options={{
+                    pixelOffset: {
+                      height: -45,
+                      width: 0,
+                      equals: () => true,
+                    }
+                  }}>
                   <div>
                     <h3>DESIGN</h3>
                     <p>Condomínio Residencial</p>
