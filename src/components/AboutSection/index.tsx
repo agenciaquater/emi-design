@@ -9,7 +9,7 @@ export function AboutSection() {
                     <div className={styles.aboutText}>
                         <h1>DESIGN</h1>
                         
-                        <p>O empreendimento possui 4 apartamentos de dois dormitórios por andar, com uma ou duas vagas de garagem – sendo as unidades do terceiro andar com terraço privativo.</p>
+                        <p>O empreendimento possui 4 apartamentos de dois dormitórios por andar, com uma ou duas vagas de garagem.</p>
 
                         <p>Para o seu lazer, o prédio dispõe de piscina e deck, além de salão de festas e espaço gourmet. Os medidores de água, luz e gás são individuais, e há um gerador de energia para as áreas comuns. 
                         A fachada frontal Érico Veríssimo é revestida com pastilhas e pintura texturizada. O lobby de entrada conta com pé direito duplo e 2 elevadores.
