@@ -33,4 +33,9 @@
             font-size: 1.25rem;
         }           
     }
+
+    @media(max-width: 720px){
+        padding: 0;
+        padding-top: 20px;
+    }
 }
