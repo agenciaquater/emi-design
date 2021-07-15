@@ -13,11 +13,11 @@ export function AboutSection() {
 
                         <p>Para o seu lazer, o prédio dispõe de piscina e deck, além de salão de festas e espaço gourmet. Os medidores de água, luz e gás são individuais, e há um gerador de energia para as áreas comuns. 
                         A fachada frontal Érico Veríssimo é revestida com pastilhas e pintura texturizada. O lobby de entrada conta com pé direito duplo e 2 elevadores.
-                        O prédio ainda possui segurança com guarita, além de um apartamento para uso do zelador. </p>
+                        O prédio ainda possui portaria 24 horas, além de um apartamento para uso do zelador. </p>
 
                         <p>Nosso compromisso é construir com foco na satisfação dos clientes, na sustentabilidade e na qualidade do produto, através da confiança em seus funcionários e parceiros, buscando meelhorar continuamente seus processos. </p>
 
-                        <h2>HÁ MAIS DE 40 ANOS VOCÊ PODE CONTAR COM A QUALIDADE DA EMI.</h2>
+                        <h2>HÁ 45 ANOS VOCÊ PODE CONTAR COM A QUALIDADE DA EMI.</h2>
                     </div>
                 </div>
             </div>
@@ -35,13 +35,12 @@ export function AboutSection() {
 
                         <div className={styles.listItems}>
                             <ul>
-                                <div className={styles.listSpan}>Apartamentos de 70,13m²</div>
+                                <div className={styles.first}>Apartamentos de 70,13m² (Andares altos)</div>
                                 <div className={styles.listSpan}>2 Dormitórios</div>
                                 <div className={styles.listSpan}>Vagas de Garagem</div>
                                 <li>Salão de Festas</li>
                                 <li>Espaço Gourmet</li>
-                                <li>Piscina</li>
-                                <li>Deck Molhado</li>
+                                <li>Piscina com Deck Molhado</li>
                                 <li>Portaria 24h</li>
                                 <li>Gerador de Energia</li>
                             </ul>

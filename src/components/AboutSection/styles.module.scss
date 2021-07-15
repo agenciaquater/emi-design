@@ -123,6 +123,20 @@
                 }
             }
 
+            .first {
+                display: flex;
+                align-items: center;
+
+                width: 271px;
+                height: 50px;
+                background-color: var(--gray-600);
+                color: var(--white);
+
+                padding-left: 10px;
+
+                margin-bottom: 10px;
+            }
+
             .listSpan {
                 display: flex;
                 align-items: center;
