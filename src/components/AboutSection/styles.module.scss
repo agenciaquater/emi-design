@@ -203,3 +203,17 @@
         background: var(--white)
     }
 }
+
+.sideDash {
+    position: absolute;
+    top: 1150px;
+    left: 130px;
+
+    background-color: var(--gray-700);
+    width: 1px;
+    height: 600px;
+
+    @media (max-width: 1500px) {
+        display: none;
+    }
+}
