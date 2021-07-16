@@ -21,7 +21,20 @@ export default function Home() {
       <NextSeo 
         title="Edifício Design"
         description="Apartamentos de 2 dormitórios, com 1 ou 2 vagas de garagem, além de infraestrutura completa de lazer e segurança."
-        canonical=""
+        canonical="https://design.emiempreendimentos.com.br/"
+        openGraph={{
+          url: 'https://design.emiempreendimentos.com.br/',
+          title: 'Edifício Design',
+          description: 'O melhor endereço de apartamentos de 80m² a 103m² com 2 ou 3 suítes, áreas condominiais e de lazer no bairro Santana, a 2 minutos do Parque da Redenção.',
+          images: [
+            {
+              url: '/images/home-bg-webp',
+              width: 800,
+              height: 600,
+              alt: 'Edifício Design',
+            }
+          ]
+        }}
       />
 
       <Head>
