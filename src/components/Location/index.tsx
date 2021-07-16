@@ -33,6 +33,7 @@ export function Location() {
                 options={{
                   mapTypeId: "hybrid",
                   streetViewControl: true,
+                  disableDefaultUI: true,
                 }}>
                 <Marker
                     position={{lat: -30.05413678496917, lng: -51.21861826873204}}
