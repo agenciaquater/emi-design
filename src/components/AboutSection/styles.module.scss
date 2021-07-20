@@ -43,6 +43,7 @@
             h2 {
                 margin-top: 36px;
                 text-align: center;
+                align-self: center;
 
                 font-weight: normal;
                 font-size: 1.5rem;
@@ -75,7 +76,7 @@
         #interior {
             @media (max-width: 720px) {
                 width: 100%;
-                height: 220px;
+                height: 240px;
             }
         }
 

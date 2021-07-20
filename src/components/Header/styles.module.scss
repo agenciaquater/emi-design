@@ -23,6 +23,7 @@
                 line-height: 1.375rem;
                 text-align: center;
                 margin-right: 50px;
+                color: var(--gray-400);
 
                 background: transparent;
                 outline: none;
@@ -31,8 +32,8 @@
                 transition: filter 0.2s;
             }
 
-            & a:hover {
-                filter: brightness(0.8)
+            & button:hover {
+                filter: brightness(1.5)
             }
         }
 
