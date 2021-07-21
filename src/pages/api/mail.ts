@@ -8,27 +8,22 @@ try{
 }
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
-    try{
-      const body = JSON.parse(req.body)
+  const msg = {
+    to: 'pedro@quater.rs',
+    from: 'noreply@emiempreendimentos.com.br', // Use the email address or domain you verified above
+    subject: 'teste design',
+    text: 'mensagem de teste',
+    html: '<strong>pedraooooo</strong>',
+  };
+  try {
+    await mail.send(msg);
+    return res.status(200).json({"message": "ok"})
+  } catch (error) {
+    console.error(error);
 
-      const msg = {
-          to: 'pedro@quater.rs',
-          from: 'noreply@emiempreendimentos.com.br',
-          subject: 'teste design',
-          html: '<h1>pedraoooo</h1>',
-        };
-      
-      await mail.send(msg)
-        .then(() => {
-          return res.status(200).json({ status: 'Ok' })
-        })
-        .catch(err => {
-          console.log(err.message)
-          return res.status(400).json({ status: 'Bad request' })
-        })
+    if (error.response) {
+      console.error(error.response.body)
+      return res.status(400).json({ "message": error.response.body })
     }
-    catch(err){
-      console.log(err.message)
-      return res.status(500).json({ status: 'Internal server error' })
-    }
+  }
 }
