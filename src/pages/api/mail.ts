@@ -14,8 +14,8 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       const msg = {
           to: 'pedro@quater.rs',
           from: 'noreply@emiempreendimentos.com.br',
-          subject: `teste design`,
-          html: `<h1>pedraoooo</h1>`,
+          subject: 'teste design',
+          html: '<h1>pedraoooo</h1>',
         };
       
       await mail.send(msg)
