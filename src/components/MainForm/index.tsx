@@ -34,7 +34,7 @@ export function MainForm(){
         else{
             reset()
             alert('Falha na solicitação!')
-            console.log('deu ruim papitos')
+            console.log(response)
         }
     }
 
