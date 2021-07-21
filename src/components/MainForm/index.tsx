@@ -22,8 +22,6 @@ export function MainForm(){
     })
 
     async function onSubmit(data: FormDataProps) {
-        console.log(data)
-        
         const response = await fetch('/api/mail', {
             method: 'POST',
             body: JSON.stringify(data)
