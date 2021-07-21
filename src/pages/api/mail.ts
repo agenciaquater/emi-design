@@ -8,13 +8,17 @@ try{
 }
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
+  const body = JSON.parse(req.body)
+
   const msg = {
-    to: 'pedro@quater.rs',
-    from: 'noreply@emiempreendimentos.com.br', // Use the email address or domain you verified above
-    subject: 'teste design',
-    text: 'mensagem de teste',
-    html: '<strong>pedraooooo</strong>',
-  };
+      to: 'pedro@quater.rs',
+      from: 'comercial@emiempreendimentos.com.br',
+      subject: `Nova solicitação de atendimento`,
+      html: `<h1>${body.name} requisitou atendimento</h1> <br /> 
+              <h2>E-mail: ${body.email}</h2> <br />
+              <h2>Telefone: ${body.phone}</h2> <br />`,
+    };
+    
   try {
     await mail.send(msg);
     return res.status(200).json({"message": "ok"})
