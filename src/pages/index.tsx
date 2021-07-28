@@ -55,7 +55,7 @@ export default function Home() {
 
             <h1><span>MENINO DEUS.</span></h1>
 
-            <h3><span>APARTAMENTOS DE 2 DORMITÓRIOS, <br /> COM 70m² E VAGAS DE GARAGEM.</span></h3> 
+            <h3><span>APARTAMENTOS EM ANDAR ALTO COM 70m², <br /> DOIS DORMITÓRIOS, <br /> SENDO 1 SUÍTE. COM VAGAS DE GARAGEM</span></h3> 
           </div>
 
           <MainForm />

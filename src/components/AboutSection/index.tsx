@@ -40,8 +40,7 @@ export function AboutSection() {
                                 <div className={styles.first}>Apartamentos de 70,13m² (Andares altos)</div>
                                 <div className={styles.listSpan}>2 Dormitórios</div>
                                 <div className={styles.listSpan}>Vagas de Garagem</div>
-                                <li>Salão de Festas</li>
-                                <li>Espaço Gourmet</li>
+                                <li>Salão de Festas/Espaço Gourmet</li>
                                 <li>Piscina com Deck Molhado</li>
                                 <li>Portaria 24h</li>
                                 <li>Gerador de Energia</li>
