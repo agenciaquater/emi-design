@@ -67,11 +67,12 @@
 }
 
 .specsContainer {
-    padding-top: 100px;
+    padding-top: 50px;
 
     main {
         display: flex;
         justify-content: center;
+        align-items: center;
 
         #interior {
             @media (max-width: 720px) {
