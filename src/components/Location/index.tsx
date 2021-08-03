@@ -13,7 +13,11 @@ const center = {
   lng: -51.2192459
 };
 
-export function Location() {
+interface LocationProps {
+  apikey: string;
+}
+
+export function Location({apikey}: LocationProps) {
   return (
     <div className={styles.container} id="location">
         <header>
@@ -23,7 +27,7 @@ export function Location() {
         </header>
         <div className={styles.map}>
           <LoadScript
-              googleMapsApiKey="AIzaSyDu8-x8o6hPNeO1A8zzMoPQlkxVZyq-6mQ"
+              googleMapsApiKey={apikey}
           >
             <GoogleMap
                 mapContainerStyle={containerStyle}
