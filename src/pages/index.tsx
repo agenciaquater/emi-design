@@ -83,12 +83,12 @@ export default function Home({apikey}: IndexProps) {
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async() => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const apikey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
-
+  
   return {
     props: {
-      apikey,
+      apikey
     }
   }
 }
