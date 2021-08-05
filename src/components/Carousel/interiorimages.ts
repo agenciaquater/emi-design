@@ -4,11 +4,11 @@ export const interiorImages = [
         text: 'Hall de entrada'
     },
     {
-        image: '/images/img-salao.webp',
+        image: '/images/img-salao-2.webp',
         text: 'Salão de festas'
     },
     {
-        image: '/images/img-salao-2.webp',
+        image: '/images/img-salao.webp',
         text: 'Salão de festas'
     },
     {
