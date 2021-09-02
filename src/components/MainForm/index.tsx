@@ -6,7 +6,7 @@ import * as gtag from '../../utils/gtag'
 import styles from './styles.module.scss';
 
 const generateLeadEvent = {
-    action: 'generate_lead_onthepark',
+    action: 'generate_lead_design',
     category: 'engagement',
     label: 'Submissão de dados pessoais no formulário',
     value: 1
