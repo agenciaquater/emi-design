@@ -33,6 +33,8 @@ export function MainForm(){
     })
 
     async function onSubmit(data: FormDataProps) {
+        reset();
+        
         const response = await fetch('/api/mail', {
             method: 'POST',
             body: JSON.stringify(data)
@@ -43,13 +45,10 @@ export function MainForm(){
                 gtag.event(generateLeadEvent)
             }
             
-            reset()
             router.push('/obrigado')
         }
         else{
-            reset()
             alert('Falha na solicitação!')
-            console.log(response)
         }
     }
 
